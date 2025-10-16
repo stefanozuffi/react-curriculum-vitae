@@ -20,14 +20,14 @@ const cvData = {
   
     skills: {
       webDevelopment: {
-        frontend: ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "Vite"],
+        frontend: ["HTML", "CSS", "JavaScript", "React"],
         backend: ["Node.js", "Express"],
         learning: ["SQL", "PHP", "Laravel"]
       },
       dataAnalysis: {
         languages: ["Python"],
         libraries: ["Pandas", "NumPy", "Matplotlib"],
-        tools: ["Excel (Advanced)", "Power Query", "SQL (basic)"]
+        tools: ["Excel", "PowerQuery", "SQL"]
       },
       other: ["C++ (basics)", "LaTeX", "Git", "GitHub"]
     },
@@ -57,14 +57,12 @@ const cvData = {
         degree: "Full-Stack Web Development Bootcamp",
         institution: "Boolean",
         location: "Online",
-        period: "Apr – Nov 2025",
+        period: "Apr - Nov 2025",
         hours: "700+",
         description: "Intensive training program covering full-stack web development",
         details: [
-          "Frontend: HTML5, CSS3, JavaScript (ES6+), React, Bootstrap, Vite",
-          "Backend: Node.js, Express",
-          "Currently learning: SQL databases, PHP, Laravel",
-          "Focus: responsive design, modern web applications, REST APIs"
+           "HTML5, CSS3, JavaScript (ES6+), React, Bootstrap, Vite, Node.js, Express, SQL databases, PHP, Laravel"
+          
         ],
         show: true
       },
@@ -75,7 +73,10 @@ const cvData = {
         location: "Netherlands",
         period: "Sept 2022 – Apr 2025",
         description: "Focus on Pure Mathematics and Philosophy of Mathematics",
-        details: [],
+        details: [
+            "Set Theory, Model Theory, Modal Logic",
+            "Thesis on the concept of variable in mathematics"
+        ], 
         show: true
       },
       {
@@ -84,19 +85,11 @@ const cvData = {
         institution: "Catholic University of the Sacred Heart",
         location: "Italy",
         period: "Sept 2019 – Sept 2022",
-        description: "Focus on Philosophy of Science, AI, Logic",
-        details: [],
+        description: "Focus on Philosophy of Science, of AI and Logic",
+        details: [
+            "Thesis on GL modal calculus and its applications in Recursion Theory"
+        ],
         show: true
-      },
-      {
-        id: 4,
-        degree: "Scientific High School Diploma",
-        institution: "Liceo Donatelli-Pascal",
-        location: "Milan",
-        period: "2019",
-        description: "",
-        details: [],
-        show: false
       }
     ],
   
