@@ -86,6 +86,14 @@ strong {
   max-width: 62%;
 }
 
+.experience-header-text h5 {
+  padding: 5px 10px;
+  border-radius: 50px 50px 50px 50px;
+  width: fit-content;
+  background-color: rgb(183, 173, 237);
+  color: white;
+  font-weight: bold;
+}
 /* Profile */
 .profilePic {
   width: 150px;
@@ -149,7 +157,8 @@ strong {
   padding: 5px 10px;
   border-radius: 50px 50px 50px 50px;
   width: fit-content;
-  background-color: rgb(156, 85, 85);
+  background-color: rgb(109, 171, 107);
+  /* background-color: rgb(156, 85, 85); */
   color: white;
   font-weight: bold;
 }
