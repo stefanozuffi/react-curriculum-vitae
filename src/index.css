@@ -16,6 +16,11 @@ a {
   text-decoration: none;
 }
 
+h3 {
+  font-size: 18px;
+  font-weight: 900;
+}
+
 h4 {
   font-size: 18px;
 }
@@ -39,12 +44,23 @@ strong {
 /* Specifics */
 
 .cv-container {
-  max-width: 900px;
+  max-width: 950px;
   min-height: 1123px;
   margin: 0 auto;
   padding: 2rem;
 
   background-color: beige;
+}
+
+.header-container {
+  img {
+    margin-left: 50px;
+    
+  }
+}
+
+.header-container span,p {
+  font-size: 14px;
 }
 
 .section {
@@ -63,7 +79,11 @@ strong {
 }
 
 .left-main {
-  max-width: 30%;
+  max-width: 28%;
+}
+
+.right-main {
+  max-width: 62%;
 }
 
 /* Profile */
@@ -120,6 +140,21 @@ strong {
 }
 
 .skills li {
+  font-size: 14px;
+}
+
+/* Projects */
+
+.project-header-text h5 {
+  padding: 5px 10px;
+  border-radius: 50px 50px 50px 50px;
+  width: fit-content;
+  background-color: rgb(156, 85, 85);
+  color: white;
+  font-weight: bold;
+}
+
+.project-description {
   font-size: 14px;
 }
 

@@ -97,7 +97,7 @@ const cvData = {
       {
         id: 1,
         name: "Sudoku Game App",
-        year: "2025",
+        init: "7 Oct 2025",
         technologies: ["React", "Vite", "Bootstrap", "JavaScript"],
         description: "Interactive web application with 6 playable puzzles across three difficulty levels",
         features: [
@@ -115,7 +115,7 @@ const cvData = {
       {
         id: 2,
         name: "Tic-Tac-Toe Game",
-        year: "2025",
+        init: "Sept 2025",
         technologies: ["React", "JavaScript", "CSS"],
         description: "Classic game implementation with React",
         features: [
@@ -131,7 +131,7 @@ const cvData = {
       {
         id: 3,
         name: "Actors & Actresses Gallery",
-        year: "2025",
+        init: "14 Oct 2025",
         technologies: ["React", "Axios", "Bootstrap", "CSS"],
         description: "Web application displaying curated lists of renowned actors and actresses",
         features: [
