@@ -114,18 +114,12 @@ const cvData = {
       },
       {
         id: 2,
-        name: "Tic-Tac-Toe Game",
-        init: "Sept 2025",
-        technologies: ["React", "JavaScript", "CSS"],
-        description: "Classic game implementation with React",
-        features: [
-          "Clean UI and responsive design",
-          "Game state management",
-          "Win detection algorithm"
-        ],
-        github: "https://github.com/stefanozuffi/[tictactoe-repo]",
-        demo: "",
-        image: "",
+        name: "this_Curriculum_Vitae",
+        init: "16 Oct 2025",
+        technologies: ["React", "Vite", "Bootstrap", "CSS"],
+        description: "The curriculum you are looking at!",
+        github: "https://github.com/stefanozuffi/react-curriculum-vitae",
+        demo: "https://stefanozuffi-cv.vercel.app", // dopo il deploy
         show: true
       },
       {
@@ -142,7 +136,7 @@ const cvData = {
           "Filmography section",
           "Custom styling with gradients"
         ],
-        github: "https://github.com/stefanozuffi/[actors-repo]",
+        github: "https://github.com/stefanozuffi/react-api",
         demo: "",
         image: "",
         show: true
