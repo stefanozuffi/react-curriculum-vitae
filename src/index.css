@@ -44,8 +44,10 @@ strong {
 /* Specifics */
 
 .cv-container {
-  max-width: 850px;
-  min-height: 900px;
+  width: 1240px;
+  height: 1754px;
+  /* max-width: 850px;
+  min-height: 900px; */
   margin: 0 auto;
   padding: 2rem;
 
@@ -367,11 +369,12 @@ strong {
   }
 
   .cv-container {
+    margin:0;
     width: 133.33%;
     padding: 0; 
     padding-top: 2rem;
     padding-left: 2rem;
-    transform: scale(0.9);
+    transform: scale(0.90);
     transform-origin: top left;
     
   }
