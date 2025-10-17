@@ -14,7 +14,7 @@ const cvData = {
     },
   
     profile: {
-      extended: "Graduate in Mathematical Logic and Philosophy, currently transitioning into web development. My academic background in formal reasoning and abstract problem-solving translates naturally into coding—I approach technical challenges both systematically and creatively. Through intensive bootcamp training and hands-on projects, I'm building a solid foundation in full-stack development. I'm seeking junior developer positions where I can contribute fresh perspectives, learn actively, and grow alongside experienced teams.",
+      extended: "Graduate in Mathematical Logic and Philosophy. My academic background in formal and abstract topics and intensive problem-solving translates naturally into coding— I approach technical challenges both systematically and creatively. Through intensive bootcamp, self-training and challenging projects, I'm building a solid foundation in full-stack development. I'm seeking junior developer positions where I can contribute fresh perspectives, learn actively, and grow alongside experienced teams.",
       compact: "Philosophy & Logic graduate transitioning to web development. Strong analytical background, intensive bootcamp training, hands-on projects. Seeking junior developer positions to learn and grow."
     },
   
@@ -159,10 +159,10 @@ const cvData = {
         type: "Internship",
         description: "Data analysis and visualization from SQL database",
         responsibilities: [
-          "Analyzed and visualized data from ARCA's SQL database",
+          // "Analyzed and visualized data from ARCA's SQL database",
           "Built automated reports using Excel, Power Query, and Python scripts",
-          "Created custom Excel functions via Python integration",
-          "Improved data processing workflow efficiency"
+          "Created custom Excel functions via Python integration to improve workflow",
+          // "Improved data processing workflow efficiency"
         ],
         technologies: ["Excel", "Power Query", "Python", "SQL"],
         show: true

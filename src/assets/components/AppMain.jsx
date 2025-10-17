@@ -1,3 +1,4 @@
+import AppHeader from "./AppHeader";
 import Education from "./Education";
 import Experience from "./Experience";
 import Profile from "./Profile";
@@ -13,7 +14,8 @@ export default function AppMain() {
                     <Skills/>
                 </div>
 
-                <div className="right-main d-flex flex-column justify-content-between">
+                <div className="right-main d-flex flex-column justify-content-between align-items-start">
+                    <AppHeader/>
                     <Education/>
                     <Projects/>
                     <Experience/>

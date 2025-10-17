@@ -8,9 +8,6 @@ function App() {
   return (
     <div className="cv-container">
 
-      <header>
-        <AppHeader/>
-      </header>
       <main>
         <AppMain/>
       </main>
