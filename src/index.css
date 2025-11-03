@@ -1,6 +1,7 @@
 @import url('bootstrap');
 @import url('bootstrap-icons');
 
+
 * {
   margin: 0;
   padding: 0;
@@ -44,23 +45,13 @@ strong {
 /* Specifics */
 
 .cv-container {
-  width: 1240px;
-  height: 1754px;
-  /* max-width: 850px;
-  min-height: 900px; */
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 5rem;
 
   background-color: beige;
 }
 
-.header-container {
-  img {
-    margin-left: 50px;
-    
-    
-  }
-}
 
 .header-container span,p {
   font-size: 14px;
@@ -173,210 +164,18 @@ strong {
 
 @media print {
   .cv-container {
-    max-width: 100%;
-    padding: 0;
-  }
-  
-  @page {
-    size: A4;
-    margin: 1cm;
-  }
-}
-@import url('bootstrap');
-@import url('bootstrap-icons');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'IBM Plex Mono', monospace;
-
-}
-
-a {
-  text-decoration: none;
-}
-
-h3 {
-  font-size: 18px;
-  font-weight: 900;
-}
-
-h4 {
-  font-size: 18px;
-}
-
-h5 {
-  font-size: 14px;
-}
-
-strong.mark {
-  background-color: rgba(165, 42, 42, 0.291);
-  width: fit-content;
-}
-
-strong {
-  color: brown;
-  -webkit-text-stroke: 0.5px currentColor;
-  font-weight: normal;
-  letter-spacing: 0.02em; 
-}
-
-/* Specifics */
-
-.cv-container {
-  max-width: 900px;
-  max-height: 1123px;
-  margin: 0 auto;
-  padding: 1.5rem;
-
-  background-color: beige;
-}
-
-.header-container {
-  img {
-    margin-left: 50px;
-    
-  }
-}
-
-.header-container span,p {
-  font-size: 14px;
-}
-
-.info {
-  margin-left: -40px;
-}
-
-.birth p {
-  margin-bottom: -3px;
-}
-
-.section {
-  
-  .section-body {
-    border-left: 1px solid black;
-
-  }
-
-  h4 {
-    background-color: rgb(187, 187, 134);
-    width: fit-content;
-    padding: 3px 10px 3px 10px;
-    border-radius: 0 10px 0 0;
-  }
-}
-
-.left-main {
-  max-width: 28%;
-}
-
-.right-main {
-  max-width: 62%;
-}
-
-.experience-header-text h5 {
-  padding: 5px 10px;
-  border-radius: 50px 50px 50px 50px;
-  width: fit-content;
-  background-color: rgb(183, 173, 237);
-  color: white;
-  font-weight: bold;
-}
-/* Profile */
-.profilePic {
-  width: 150px;
-  border-radius: 20px;
-}
-
-.profile {
-
-  .profile-text {
-  font-size: 14px;
-}
-}
-
-/* Education */
-.title-ctn {
-  font-size: 14px;
-
-}
-
-.course-header-text h5 {
-  padding: 5px 10px;
-  border-radius: 50px 50px 50px 50px;
-  width: fit-content;
-  background-color: brown;
-  color: white;
-  font-weight: bold;
-}
-
-.course p {
-  font-size: 14px;
-}
-
-.detail {
-  font-size: 12px;
-  margin-bottom: 0.2rem;
-}
-
-.institution {
-  color: grey;
-  font-size: 12px;
-}
-
-.period {
-  font-size: 12px;
-  color: grey;
-}
-
-/* Skills */
-
-.frontend p {
-  margin-bottom: 0;
-}
-
-.skills li {
-  font-size: 14px;
-}
-
-/* Projects */
-
-.project-header-text h5 {
-  padding: 5px 10px;
-  border-radius: 50px 50px 50px 50px;
-  width: fit-content;
-  background-color: rgb(109, 171, 107);
-  /* background-color: rgb(156, 85, 85); */
-  color: white;
-  font-weight: bold;
-}
-
-.project-description {
-  font-size: 14px;
-}
-
-
-@media print {
-  
-  
-  @page {
-    size: A4;
-    margin: 1cm;
-  }
-
-  .cv-container {
-    margin:0;
-    width: 133.33%;
+    background-color: white;
+    width: 110%;
+    margin: 0;
     padding: 0; 
     padding-top: 2rem;
     padding-left: 2rem;
-    transform: scale(0.90);
+    transform: scale(0.9);
     transform-origin: top left;
-    
   }
-
+  
+  @page {
+    size: A4;
+  }
 }
+
